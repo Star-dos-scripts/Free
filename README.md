@@ -13,7 +13,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "StarHub",
 	Callback = function()
-      		setclipboard("em breve!")
+      		setclipboard("https://discord.gg/BSuP8CFgYd")
   	end    
 })
 
@@ -59,5 +59,29 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 local Section = Tab:AddSection({
-	Name = "Data do Lançamento : 20 / 04 / 25"
+	Name = "MM2"
 })
+Tab:AddButton({
+	Name = "YARHM",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Aviso!",
+	Content = "Compre para ter acesso!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+  	end    
+})
+Tab:AddButton({
+	Name = "Não sei o Nome",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Aviso!",
+	Content = "Compre para ter acesso!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+  	end    
+})
+
+
